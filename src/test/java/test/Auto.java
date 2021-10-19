@@ -10,13 +10,13 @@ public class Auto {
     public static int cantidadCreados;
 
     public int cantidadAsientos() {
-        int numObects = 0;
+        int numObjects = 0;
         for(int i = 0; i < asientos.length; i++) {
             if(asientos[i] != null) {
                 numObjects++;
             }
         }
-        return numObects;
+        return numObjects;
     }
     public String verificarIntegridad() {
         for(int i = 0; i < asientos.length; i++) {
